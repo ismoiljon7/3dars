@@ -8,6 +8,12 @@ import Image6 from "./assets/image6.jpg";
 import Image7 from "./assets/image7.jpg";
 import Image8 from "./assets/image8.jpg";
 import Image9 from "./assets/image9.jpg";
+import Image10 from "./assets/image10.jpg";
+import Image11 from "./assets/image11.jpg";
+import Image12 from "./assets/image12.jpg";
+import Image13 from "./assets/image13.jpg";
+import Image14 from "./assets/image14.jpg";
+import Image15 from "./assets/image15.jpg";
 
 const App = () => {
   const [books, setBooks] = useState([
@@ -81,6 +87,54 @@ const App = () => {
       author: "Anne Frank",
       year: 1947,
       image: Image9,
+      count: 0,
+    },
+    {
+      id: 10,
+      title: "The Catcher in the Rye",
+      author: "J.D. Salinger",
+      year: 1951,
+      image: Image10,
+      count: 0,
+    },
+    {
+      id: 11,
+      title: "Moby Dick",
+      author: "Herman Melville",
+      year: 1851,
+      image: Image11,
+      count: 0,
+    },
+    {
+      id: 12,
+      title: "War and Peace",
+      author: "Leo Tolstoy",
+      year: 1869,
+      image: Image12,
+      count: 0,
+    },
+    {
+      id: 13,
+      title: "Crime and Punishment",
+      author: "Fyodor Dostoevsky",
+      year: 1866,
+      image: Image13,
+      count: 0,
+    },
+    {
+      id: 14,
+      title: "Brave New World",
+      author: "Aldous Huxley",
+      year: 1932,
+      image: Image14,
+      count: 0,
+    },
+    {
+      id: 15,
+      title: "The Hobbit",
+      author: "J.R.R. Tolkien",
+      year: 1937,
+      image: Image15,
       count: 0,
     },
   ]);
